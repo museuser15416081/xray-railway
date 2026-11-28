@@ -9,9 +9,9 @@
       "decryption": "none"
     },
     "streamSettings": {
-      "network": "ws",
+      "network": "xhttp",
       "security": "none",
-      "wsSettings": {"path": "__WSPATH__"}
+      "xhttpSettings": {"path": "__WSPATH__", "mode": "packet-up"}
     }
   }],
   "outbounds": [{"protocol": "freedom"}]
